@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AllergyApp</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_add_item">Add Item</string>
+    <string name="prompt_add_allergen">Add Allergen</string>
+
+    <string name="action_sign_in">Sign up</string>
+    <string name="action_sign_in_short">Sign up with google</string>
+
+    <string name="welcome">"Welcome !"</string>
+
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="title_activity_allergy_check">AllergyCheckActivity</string>
+    <string name="title_your_allergy">Allergy</string>
+    <string name="title_scan_product">Scan</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Register</string>
+    <string name="barcode_api_key">sybqp3g6aa3e9wzews05jxokxcmgjp</string>
+</resources>

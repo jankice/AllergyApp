@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.task.allergyapp.ui.AllergyCheck.allergen.AllergenFragment"
+        android:label="@string/title_your_allergy"
+        tools:layout="@layout/fragment_allergen" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.task.allergyapp.ui.AllergyCheck.scan.ScanFragment"
+        android:label="@string/title_scan_product"
+        tools:layout="@layout/fragment_scan" />
+
+
+</navigation>
